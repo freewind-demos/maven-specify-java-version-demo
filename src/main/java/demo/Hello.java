@@ -2,8 +2,13 @@ package demo;
 
 public class Hello {
 
-    public String greeting(String name) {
-        return "Hello, " + name + "!";
+    public static void main(String[] args) {
+        var message = "Hello!";
+        System.out.println(message);
+        System.out.println(message);
+        System.out.println(message);
+        System.out.println(message);
+        System.out.println(message);
     }
 
 }
